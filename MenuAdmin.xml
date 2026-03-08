@@ -12,9 +12,9 @@
 
 <item type="static" label="&lt;b&gt;Menu Admin By Jade&lt;b&gt;"/>
 
-	<item type="menu" label="&lt;font color='#850606'&gt;Annonces ModÃƒÂ©rations&lt;/font&gt;">
-		<item type="static" label="Annonces ModÃƒÂ©rations"/>
-		<item type="sendchat" label="Annonces ModÃƒÂ©rations" command=".a Bonjour/Bonsoir ÃƒÂ  tous, n'hÃƒÂ©sitez pas ÃƒÂ  me poser la moindre question ou ÃƒÂ  signaler le moindre problÃƒÂ¨me (bug ÃƒÂ  signaler, ect...) /w %p"/>
+	<item type="menu" label="&lt;font color='#850606'&gt;Annonces ModÃ©rations&lt;/font&gt;">
+		<item type="static" label="Annonces ModÃ©rations"/>
+		<item type="sendchat" label="Annonces ModÃ©rations" command=".a Bonjour/Bonsoir Ã  tous, n'hÃ©sitez pas Ã  me poser la moindre question ou Ã  signaler le moindre problÃ¨me (bug Ã  signaler, ect...) /w %p"/>
 
 	</item>
 
@@ -31,25 +31,25 @@
 			
 			<item type="menu" label="&lt;font color='#9B59B6'&gt;Event PvP&lt;/font&gt;">
 
-			<item type="sendChat" label="Carnage" command=".a Ãƒâ€°vent Carnage, 10 places. Veuillez me MP pour participer, sortez de vos combats pour ÃƒÂªtre TP.  /w %p "/>
-			<item type="sendChat" label="Survie" command=".a Ãƒâ€°vent Survie, 10 places. Veuillez me MP pour participer , sortez de vos combats pour ÃƒÂªtre TP.  /w %p "/>
-			<item type="sendChat" label="AvsD" command=".a Ãƒâ€°vent Attaque vs DÃƒÂ©fence 16 places. Veuillez me MP pour participer , sortez de vos combats pour ÃƒÂªtre TP. /w %p "/>
-			<item type="sendChat" label="PvP" command=".a Ãƒâ€°vent PvP 8 places, Veuillez me MP pour participer , sortez de vos combats pour ÃƒÂªtre TP. /w %p "/>
-			<item type="sendChat" label="Battle Royal" command=".a Ãƒâ€°vent Battle Royal, 10 places. Veuillez me MP pour participer , sortez de vos combats pour ÃƒÂªtre TP. /w %p "/>
-			<item type="sendChat" label="Boucherie" command=".a Ãƒâ€°vent Boucherie, 10 places. Veuillez me MP pour participer , sortez de vos combats pour ÃƒÂªtre TP. /w %p "/>
-			<item type="sendChat" label="Carnage Duo" command=".a Ãƒâ€°vent Carnage Duo, 10 places. Veuillez me MP pour participer , sortez de vos combats pour ÃƒÂªtre TP. /w %p "/>
-			<item type="sendChat" label="Koh-Lanta" command=".a Ãƒâ€°vent Koh-Lanta, 8 places. Veuillez me MP pour participer , sortez de vos combats pour ÃƒÂªtre TP. /w %p "/>
+			<item type="sendChat" label="Carnage" command=".a Ã‰vent Carnage, 10 places. Veuillez me MP pour participer, sortez de vos combats pour Ãªtre TP.  /w %p "/>
+			<item type="sendChat" label="Survie" command=".a Ã‰vent Survie, 10 places. Veuillez me MP pour participer , sortez de vos combats pour Ãªtre TP.  /w %p "/>
+			<item type="sendChat" label="AvsD" command=".a Ã‰vent Attaque vs DÃ©fence 16 places. Veuillez me MP pour participer , sortez de vos combats pour Ãªtre TP. /w %p "/>
+			<item type="sendChat" label="PvP" command=".a Ã‰vent PvP 8 places, Veuillez me MP pour participer , sortez de vos combats pour Ãªtre TP. /w %p "/>
+			<item type="sendChat" label="Battle Royal" command=".a Ã‰vent Battle Royal, 10 places. Veuillez me MP pour participer , sortez de vos combats pour Ãªtre TP. /w %p "/>
+			<item type="sendChat" label="Boucherie" command=".a Ã‰vent Boucherie, 10 places. Veuillez me MP pour participer , sortez de vos combats pour Ãªtre TP. /w %p "/>
+			<item type="sendChat" label="Carnage Duo" command=".a Ã‰vent Carnage Duo, 10 places. Veuillez me MP pour participer , sortez de vos combats pour Ãªtre TP. /w %p "/>
+			<item type="sendChat" label="Koh-Lanta" command=".a Ã‰vent Koh-Lanta, 8 places. Veuillez me MP pour participer , sortez de vos combats pour Ãªtre TP. /w %p "/>
 		</item>
 
 			
 			<item type="menu" label="&lt;font color='#9B59B6'&gt;Event Skins&lt;/font&gt;">
-			<item type="sendChat" label="Mode" command=".a Ãƒâ€°vent Mode, 8 places. Veuillez me MP pour participer , sortez de vos combats pour ÃƒÂªtre TP. /w %p "/>
+			<item type="sendChat" label="Mode" command=".a Ã‰vent Mode, 8 places. Veuillez me MP pour participer , sortez de vos combats pour Ãªtre TP. /w %p "/>
 		</item>
 
 			<item type="menu" label="&lt;font color='#9B59B6'&gt;Event Divers&lt;/font&gt;">
-			<item type="sendChat" label="Lettre" command=".a Ãƒâ€°vent Lettre, 8 places. Veuillez me MP pour participer, sortez de vos combats pour ÃƒÂªtre TP. /w %p "/>
-			<item type="sendChat" label="Chasse ÃƒÂ  l'Homme" command=".a Ãƒâ€°vent Chasse ÃƒÂ  l'Homme, 8 places. Veuillez me MP pour participer, sortez de vos combats pour ÃƒÂªtre TP.  /w %p "/>			
-			<item type="sendChat" label="Quizz" command=".a Ãƒâ€°vent Quizz, 8 places. Veuillez me MP pour participer , sortez de vos combats pour ÃƒÂªtre TP.  /w %p "/>
+			<item type="sendChat" label="Lettre" command=".a Ã‰vent Lettre, 8 places. Veuillez me MP pour participer, sortez de vos combats pour Ãªtre TP. /w %p "/>
+			<item type="sendChat" label="Chasse Ã  l'Homme" command=".a Ã‰vent Chasse Ã  l'Homme, 8 places. Veuillez me MP pour participer, sortez de vos combats pour Ãªtre TP.  /w %p "/>			
+			<item type="sendChat" label="Quizz" command=".a Ã‰vent Quizz, 8 places. Veuillez me MP pour participer , sortez de vos combats pour Ãªtre TP.  /w %p "/>
 
 		</item>
 		</item>
@@ -58,13 +58,13 @@
 			
 		<!--REGLES DES EVENTS-->
 			
-	<item type="menu" label="&lt;font color='#9B59B6'&gt;RÃƒÂ¨gles des events&lt;/font&gt;">		
+	<item type="menu" label="&lt;font color='#9B59B6'&gt;RÃ¨gles des events&lt;/font&gt;">		
 			
 
-							<item type="static" label="RÃƒÂ¨gles Events"/>
+							<item type="static" label="RÃ¨gles Events"/>
 
 
-			<item type="sendChat" label="Annonce des rÃƒÂ¨gles" command="/s Voici donc les rÃƒÂ¨gles : "/>
+			<item type="sendChat" label="Annonce des rÃ¨gles" command="/s Voici donc les rÃ¨gles : "/>
 			
 
 
@@ -78,44 +78,44 @@
 			
 
 			<item type="menu" label="&lt;font color='#B7741D'&gt;Carnage&lt;/font&gt;">
-			<item type="sendChat" label="GÃƒÂ©nÃƒÂ©rale" command="/s Je vais lancer un combat, vous devrez alors vous entre-tuer pour faire le maximum de kill. Le joueur qui aura faire le + de kill remporte l'ÃƒÂ©vent mÃƒÂªme si celui-ci est mort avant la fin,"/>
-			<item type="sendChat" label="Invocations AutorisÃƒÂ©s" command="/s Les invocations sont autorisÃƒÂ©s. Les attaques contre le staff sont interdites sous peine de disqualification.  "/>
+			<item type="sendChat" label="GÃ©nÃ©rale" command="/s Je vais lancer un combat, vous devrez alors vous entre-tuer pour faire le maximum de kill. Le joueur qui aura faire le + de kill remporte l'Ã©vent mÃªme si celui-ci est mort avant la fin,"/>
+			<item type="sendChat" label="Invocations AutorisÃ©s" command="/s Les invocations sont autorisÃ©s. Les attaques contre le staff sont interdites sous peine de disqualification.  "/>
 			<item type="sendChat" label="Est-ce clair ?" command="/s Avez-vous tous bien compris ?"/>
 		</item>
 
 			<item type="menu" label="&lt;font color='#B7741D'&gt;Survie&lt;/font&gt;">
-			<item type="sendChat" label="GÃƒÂ©nÃƒÂ©rale" command="/s Je vais lancer un combat, vous devrez alors vous entre-tuer pour qu'il ne reste qu'un seul survivant,  "/>
-			<item type="sendChat" label="Dernier en vie...remporte" command="/s Les attaques contre le staff sont interdites sous peine de disqualification. Le dernier en vie remporte l'ÃƒÂ©vent. "/>
+			<item type="sendChat" label="GÃ©nÃ©rale" command="/s Je vais lancer un combat, vous devrez alors vous entre-tuer pour qu'il ne reste qu'un seul survivant,  "/>
+			<item type="sendChat" label="Dernier en vie...remporte" command="/s Les attaques contre le staff sont interdites sous peine de disqualification. Le dernier en vie remporte l'Ã©vent. "/>
 		</item>
 			
 			<item type="menu" label="&lt;font color='#B7741D'&gt;AvsD&lt;/font&gt;">
-			<item type="sendchat" label="Partie 1" command="/s Je vais choisir deux chefs d'ÃƒÂ©quipes! Comme une sorte de balle au prisonnier.. Donc il me faudra 2 ÃƒÂ©quipe de 8 ! "/>
-			<item type="sendchat" label="Partie 2" command="/s Quand vos ÃƒÂ©quipes seront dÃƒÂ©finis, le premier chef d'ÃƒÂ©quipe dÃƒÂ©cidera si il souhaite ÃƒÂªtre en attaque ou en dÃƒÂ©fense, "/>
-			<item type="sendchat" label="Partie 3" command="/s AprÃƒÂ¨s cela, les rÃƒÂ¨gles seront diffÃƒÂ©rente selon l'ÃƒÂ©quipe ! "/>
-			<item type="sendchat" label="Partie 4" command="/s L'ÃƒÂ©quipe dÃƒÂ©fense devra se placer par 2 sur 4 map diffÃƒÂ©rente qui s'alligne ( c'est vous qui choisissez vos ÃƒÂ©quipes de 2 ! ) "/>
-			<item type="sendchat" label="Partie 5" command="/s L'ÃƒÂ©quipe d'attaque devra se positionner sur une seule map ( la map ÃƒÂ  droite du premier niveau de l'ÃƒÂ©quipe dÃƒÂ©fence ) "/>
-			<item type="sendchat" label="Partie 6" command="/s Ainsi, l'ÃƒÂ©quipe d'attaque devra essayer de push les 4 maps en ÃƒÂ©liminant les teams en dÃƒÂ©fence, pour recommencer en 2v2 puis 1v1 ! "/>
-			<item type="sendchat" label="Partie 7" command="/s Si vous n'avez pas compris, ne vous inquiÃƒÂ©ter pas, je vous ÃƒÂ©xpliquerai au fur et ÃƒÂ  mesur. "/>
+			<item type="sendchat" label="Partie 1" command="/s Je vais choisir deux chefs d'Ã©quipes! Comme une sorte de balle au prisonnier.. Donc il me faudra 2 Ã©quipe de 8 ! "/>
+			<item type="sendchat" label="Partie 2" command="/s Quand vos Ã©quipes seront dÃ©finis, le premier chef d'Ã©quipe dÃ©cidera si il souhaite Ãªtre en attaque ou en dÃ©fense, "/>
+			<item type="sendchat" label="Partie 3" command="/s AprÃ¨s cela, les rÃ¨gles seront diffÃ©rente selon l'Ã©quipe ! "/>
+			<item type="sendchat" label="Partie 4" command="/s L'Ã©quipe dÃ©fense devra se placer par 2 sur 4 map diffÃ©rente qui s'alligne ( c'est vous qui choisissez vos Ã©quipes de 2 ! ) "/>
+			<item type="sendchat" label="Partie 5" command="/s L'Ã©quipe d'attaque devra se positionner sur une seule map ( la map Ã  droite du premier niveau de l'Ã©quipe dÃ©fence ) "/>
+			<item type="sendchat" label="Partie 6" command="/s Ainsi, l'Ã©quipe d'attaque devra essayer de push les 4 maps en Ã©liminant les teams en dÃ©fence, pour recommencer en 2v2 puis 1v1 ! "/>
+			<item type="sendchat" label="Partie 7" command="/s Si vous n'avez pas compris, ne vous inquiÃ©ter pas, je vous Ã©xpliquerai au fur et Ã  mesur. "/>
 		</item>
 
 			<item type="menu" label="&lt;font color='#B7741D'&gt;PvP&lt;/font&gt;">
-			<item type="sendchat" label="Regle basique" command="/s C'est un tournois pvp basique, il pourra se dÃƒÂ©cliner sous plusieurs formes (de 1v1 ÃƒÂ  4v4).">
+			<item type="sendchat" label="Regle basique" command="/s C'est un tournois pvp basique, il pourra se dÃ©cliner sous plusieurs formes (de 1v1 Ã  4v4).">
 		</item>
 
 			<item type="menu" label="&lt;font color='#B7741D'&gt;Boucherie&lt;/font&gt;">
-			<item type="sendchat" label="Partie 1" command="/s Il s'agit tout simplement d'une mÃƒÂªlÃƒÂ©e gÃƒÂ©nÃƒÂ©rale oÃƒÂ¹ le dernier survivant remporte l'event. "/>
-			<item type="sendchat" label="Partie 2" command="/s Il n'y a donc pas d'ÃƒÂ©quipe et les alliances entre joueurs sont interdites. Cependant ce n'est pas une mÃƒÂªlÃƒÂ©e gÃƒÂ©nÃƒÂ©ral comme vous avez habitude ! "/>
-			<item type="sendchat" label="Partie 3" command="/s Tout les sort sont interdit sauf les sort de boost et la maitrÃƒÂ®se d'arme ! "/>
-			<item type="sendchat" label="Partie 4" command="/s Un modÃƒÂ©rateur sera prÃƒÂ©sent par ÃƒÂ©quipe, tout dommage occasionnÃƒÂ© sur un modÃƒÂ©rateur sera sanctionnÃƒÂ© d'une disqualification, le dernier l'emporte ! "/>
+			<item type="sendchat" label="Partie 1" command="/s Il s'agit tout simplement d'une mÃªlÃ©e gÃ©nÃ©rale oÃ¹ le dernier survivant remporte l'event. "/>
+			<item type="sendchat" label="Partie 2" command="/s Il n'y a donc pas d'Ã©quipe et les alliances entre joueurs sont interdites. Cependant ce n'est pas une mÃªlÃ©e gÃ©nÃ©ral comme vous avez habitude ! "/>
+			<item type="sendchat" label="Partie 3" command="/s Tout les sort sont interdit sauf les sort de boost et la maitrÃ®se d'arme ! "/>
+			<item type="sendchat" label="Partie 4" command="/s Un modÃ©rateur sera prÃ©sent par Ã©quipe, tout dommage occasionnÃ© sur un modÃ©rateur sera sanctionnÃ© d'une disqualification, le dernier l'emporte ! "/>
 		</item>
 
 			<item type="menu" label="&lt;font color='#B7741D'&gt;Carnage Duo&lt;/font&gt;">
-			<item type="sendchat" label="Partie 1" command="/s MÃƒÂªmes rÃƒÂ¨gles que l'event Carnage, au dÃƒÂ©tail prÃƒÂªt que les joueurs forment des teams de 2, 1 kill = 1 point. "/>
+			<item type="sendchat" label="Partie 1" command="/s MÃªmes rÃ¨gles que l'event Carnage, au dÃ©tail prÃªt que les joueurs forment des teams de 2, 1 kill = 1 point. "/>
 		</item>
 
 			<item type="menu" label="&lt;font color='#B7741D'&gt;Koh-Lanta&lt;/font&gt;">
-			<item type="sendchat" label="Koh-Lanta !" command="/s L'event est composÃƒÂ© de plusieurs manche ( des events rapides et simple ) "/>
-			<item type="sendchat" label="Koh-Lanta 2 !" command="/s Le vainqueur de chaque manche doit ÃƒÂ©liminer un autre participant, le dernier joueur en partie remporte l'ÃƒÂ©vent. "/>
+			<item type="sendchat" label="Koh-Lanta !" command="/s L'event est composÃ© de plusieurs manche ( des events rapides et simple ) "/>
+			<item type="sendchat" label="Koh-Lanta 2 !" command="/s Le vainqueur de chaque manche doit Ã©liminer un autre participant, le dernier joueur en partie remporte l'Ã©vent. "/>
 		</item>	
 		</item>
 		</item>
@@ -130,9 +130,9 @@
 
 
 			<item type="menu" label="&lt;font color='#B7741D'&gt;Mode&lt;/font&gt;">
-			<item type="sendchat" label="Mode" command="/s Je vais vous proposer un thÃƒÂ¨me, vous aurez alors 5 minutes pour aller acheter des items au PNJ's avec le thÃƒÂ¨me demander. "/>
-			<item type="sendchat" label="Mode 2" command="/s Quand vous aurez acheter vos items vous serez alors tÃƒÂ©lÃƒÂ©portÃƒÂ© ÃƒÂ  nouveau par moi mÃƒÂªme (laissez moi un mp pour me prÃƒÂ©venir) "/>
-			<item type="sendchat" label="Mode 3" command="/s Je vais donc faire un choix entre les joueurs ÃƒÂ©tant le plus proche du thÃƒÂ¨me proposÃƒÂ©, le joueur ayant le plus beau skins du thÃƒÂ¨me remporte l'ÃƒÂ©vent."/>
+			<item type="sendchat" label="Mode" command="/s Je vais vous proposer un thÃ¨me, vous aurez alors 5 minutes pour aller acheter des items au PNJ's avec le thÃ¨me demander. "/>
+			<item type="sendchat" label="Mode 2" command="/s Quand vous aurez acheter vos items vous serez alors tÃ©lÃ©portÃ© Ã  nouveau par moi mÃªme (laissez moi un mp pour me prÃ©venir) "/>
+			<item type="sendchat" label="Mode 3" command="/s Je vais donc faire un choix entre les joueurs Ã©tant le plus proche du thÃ¨me proposÃ©, le joueur ayant le plus beau skins du thÃ¨me remporte l'Ã©vent."/>
 		</item>
 		</item>
 
@@ -146,22 +146,22 @@
 						<item type="menu" label="&lt;font color='#B7741D'&gt;Event Divers&lt;/font&gt;">
 
 			<item type="menu" label="&lt;font color='#B7741D'&gt;Event Lettre&lt;/font&gt;">
-			<item type="sendChat" label="GÃƒÂ©nÃƒÂ©rale" command="/s Je vais vous donner une ou plusieurs lettres, vous devrez alors ÃƒÂ©crire des mots commenÃƒÂ§ant par les lettres que j'ai citÃƒÂ©es, "/>
-			<item type="sendChat" label="Ortho,maj,accent" command="/s Pour que votre rÃƒÂ©ponse soit acceptÃƒÂ©e, l'orthographe, les majuscules et les accÃƒÂ¨s sont ÃƒÂ  respecter ainsi que les noms propres interdit, "/>
+			<item type="sendChat" label="GÃ©nÃ©rale" command="/s Je vais vous donner une ou plusieurs lettres, vous devrez alors Ã©crire des mots commenÃ§ant par les lettres que j'ai citÃ©es, "/>
+			<item type="sendChat" label="Ortho,maj,accent" command="/s Pour que votre rÃ©ponse soit acceptÃ©e, l'orthographe, les majuscules et les accÃ¨s sont Ã  respecter ainsi que les noms propres interdit, "/>
 			<item type="sendChat" label="5 points pour gagner" command="/s Vous devez donner 4 lettre minimum par mot, le premier joueur ayant 5 points remporte l'event. "/>
 			<item type="sendChat" label="Exemple" command="/s Exemple : A B C => Aile Bain Chat "/>
 		</item>
 
-			<item type="menu" label="&lt;font color='#B7741D'&gt;Chasse ÃƒÂ  l'homme&lt;/font&gt;">
-			<item type="sendChat" label="GÃƒÂ©nÃƒÂ©rale" command="/s Je viens de vous tÃƒÂ©lÃƒÂ©porter dans une zone, vous avez 5 minutes pour vous cacher dans cette ZONE, une fois le dÃƒÂ©lai dÃƒÂ©passer vous ne bougez plus ! "/>
-			<item type="sendChat" label="Le dernier... remporte" command="/s Le dernier joueur n'ayant pas ÃƒÂ©tÃƒÂ© trouvÃƒÂ© remporte l'ÃƒÂ©vent. C'est PARTIT ! RUN "/>
+			<item type="menu" label="&lt;font color='#B7741D'&gt;Chasse Ã  l'homme&lt;/font&gt;">
+			<item type="sendChat" label="GÃ©nÃ©rale" command="/s Je viens de vous tÃ©lÃ©porter dans une zone, vous avez 5 minutes pour vous cacher dans cette ZONE, une fois le dÃ©lai dÃ©passer vous ne bougez plus ! "/>
+			<item type="sendChat" label="Le dernier... remporte" command="/s Le dernier joueur n'ayant pas Ã©tÃ© trouvÃ© remporte l'Ã©vent. C'est PARTIT ! RUN "/>
 		</item>
 
 
 			<item type="menu" label="&lt;font color='#B7741D'&gt;Quizz&lt;/font&gt;">
-			<item type="sendChat" label="GÃƒÂ©nÃƒÂ©rale" command="/s Je vais vous poser des questions sur un thÃƒÂ¨me prÃƒÂ©cis, vous devez alors rÃƒÂ©pondre ÃƒÂ  la question le plus rapidement possible,  "/>
-			<item type="sendChat" label="Ortho, maj, accent" command="/s Pour que votre rÃƒÂ©ponse soit acceptÃƒÂ©e, l'orthographe, les majuscules et les accents sont ÃƒÂ  respecter, "/>
-			<item type="sendChat" label="Le premier...remporte" command="/s Le premier joueur ayant 5 points remporte l'ÃƒÂ©vent. "/>	
+			<item type="sendChat" label="GÃ©nÃ©rale" command="/s Je vais vous poser des questions sur un thÃ¨me prÃ©cis, vous devez alors rÃ©pondre Ã  la question le plus rapidement possible,  "/>
+			<item type="sendChat" label="Ortho, maj, accent" command="/s Pour que votre rÃ©ponse soit acceptÃ©e, l'orthographe, les majuscules et les accents sont Ã  respecter, "/>
+			<item type="sendChat" label="Le premier...remporte" command="/s Le premier joueur ayant 5 points remporte l'Ã©vent. "/>	
 		</item>
 		</item>
 		</item>
@@ -169,18 +169,18 @@
 
 			
 	
-						<item type="sendchat" label="Full" command=".a Event full, dÃƒÂ©solÃƒÂ©e."/>
+						<item type="sendchat" label="Full" command=".a Event full, dÃ©solÃ©e."/>
 		
 
 
-			<item type="static" label="&lt;b&gt;tÃƒÂ©lÃƒÂ©portations&lt;b&gt;"/>
+			<item type="static" label="&lt;b&gt;tÃ©lÃ©portations&lt;b&gt;"/>
 			<item type="sendChat" label="Ramener le joueur" command=".namego %p"/>
-			<item type="sendChat" label="Ce tÃƒÂ©lÃƒÂ©porter au joueur" command=".goname %p"/>
+			<item type="sendChat" label="Ce tÃ©lÃ©porter au joueur" command=".goname %p"/>
 			
 
 
 			
-		<item type="static" label="&lt;b&gt;ModÃƒÂ©ration&lt;b&gt;"/>
+		<item type="static" label="&lt;b&gt;ModÃ©ration&lt;b&gt;"/>
 
 			
 			<item type="sendchat" label="&lt;font color='#0ECA29'&gt; Mute&lt;/font&gt;" command=".mute %p"/>
@@ -190,7 +190,7 @@
 
 
 
-						<item type="static" label="&lt;b&gt;TÃƒÂ©lÃƒÂ©portations&lt;b&gt;"/>
+						<item type="static" label="&lt;b&gt;TÃ©lÃ©portations&lt;b&gt;"/>
 
 			<item type="menu" label="&lt;font color='#6ED749'&gt; Utile &lt;/font&gt;">
 			<item type="sendChat" label="Rejoindre" command=".goname %p"/>
@@ -207,19 +207,19 @@
 
 						<item type="menu" label="&lt;font color='#6ED749'&gt; Map Event &lt;/font&gt;">
 
-			<item type="sendChat" label="Map dimenssion Ãƒâ€°caflip" command=".go 162004992 %p"/>
-			<item type="sendChat" label="Map Ãƒâ€°caflip" command=".go 162267142 %p"/>
+			<item type="sendChat" label="Map dimenssion Ã‰caflip" command=".go 162004992 %p"/>
+			<item type="sendChat" label="Map Ã‰caflip" command=".go 162267142 %p"/>
 			<item type="sendChat" label="Abyss Sufokia" command=".go 169083904 %p"/>
-			<item type="sendChat" label="TrÃƒÂ´ne de la cour sombre" command=".go 137101312 %p"/>
-			<item type="sendChat" label="ArÃƒÂ¨ne Bonta" command=".go 4981249 %p"/>
-			<item type="sendChat" label="ArÃƒÂ¨ne Brakmar Terrain Boufball" command=".go 74187778 %p"/>
-			<item type="sendChat" label="ArÃƒÂ¨ne Brakmar" command=".go 11796993 %p"/>
+			<item type="sendChat" label="TrÃ´ne de la cour sombre" command=".go 137101312 %p"/>
+			<item type="sendChat" label="ArÃ¨ne Bonta" command=".go 4981249 %p"/>
+			<item type="sendChat" label="ArÃ¨ne Brakmar Terrain Boufball" command=".go 74187778 %p"/>
+			<item type="sendChat" label="ArÃ¨ne Brakmar" command=".go 11796993 %p"/>
 			<item type="sendChat" label="Horologium de XLII" command=".go 143917569  %p"/>
-			<item type="sendChat" label="MÃƒÂ©galithe de Fraktale - Cercle de pierre" command=".go 143138823 %p"/>
+			<item type="sendChat" label="MÃ©galithe de Fraktale - Cercle de pierre" command=".go 143138823 %p"/>
 			<item type="sendChat" label="Oeil de vortex - Salle des heures perdues" command=".go 143393281 %p"/>
-			<item type="sendChat" label="XÃƒÂ©lorium (Chemins d'hier)" command=".go 44965632 %p"/>
-			<item type="sendChat" label="XÃƒÂ©lorium (Jour prÃƒÂ©sent)" command=".go 144703488 %p"/>
-			<item type="sendChat" label="XÃƒÂ©lorium (Lendemains incertains)" command=".go 144441344  %p"/>
+			<item type="sendChat" label="XÃ©lorium (Chemins d'hier)" command=".go 44965632 %p"/>
+			<item type="sendChat" label="XÃ©lorium (Jour prÃ©sent)" command=".go 144703488 %p"/>
+			<item type="sendChat" label="XÃ©lorium (Lendemains incertains)" command=".go 144441344  %p"/>
 		</item>
 
 
