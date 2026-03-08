@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menu>
+	<!--MENU ADMIN ARENA By JADE Version [Praumat]-->	<!--Version 1.0.0-->
+
+
+
+
+
+		<!--ANNONCES-->
+
+
+
+<item type="static" label="&lt;b&gt;Menu Admin By Jade&lt;b&gt;"/>
+
+	<item type="menu" label="&lt;font color='#850606'&gt;Annonces Modérations&lt;/font&gt;">
+		<item type="static" label="Annonces Modérations"/>
+		<item type="sendchat" label="Annonces Modérations" command=".a Bonjour/Bonsoir à tous, n'hésitez pas à me poser la moindre question ou à signaler le moindre problème (bug à signaler, ect...) /w %p"/>
+
+	</item>
+
+	<item type="menu" label="&lt;font color='#9B59B6'&gt;Annonces Animateur&lt;/font&gt;">
+
+							
+		<!--ANNONCES EVENTS-->
+
+
+
+
+							<item type="static" label="Annonce Event"/>
+
+			
+			<item type="menu" label="&lt;font color='#9B59B6'&gt;Event PvP&lt;/font&gt;">
+
+			<item type="sendChat" label="Carnage" command=".a Évent Carnage, 10 places. Veuillez me MP pour participer, sortez de vos combats pour être TP.  /w %p "/>
+			<item type="sendChat" label="Survie" command=".a Évent Survie, 10 places. Veuillez me MP pour participer , sortez de vos combats pour être TP.  /w %p "/>
+			<item type="sendChat" label="AvsD" command=".a Évent Attaque vs Défence 16 places. Veuillez me MP pour participer , sortez de vos combats pour être TP. /w %p "/>
+			<item type="sendChat" label="PvP" command=".a Évent PvP 8 places, Veuillez me MP pour participer , sortez de vos combats pour être TP. /w %p "/>
+			<item type="sendChat" label="Battle Royal" command=".a Évent Battle Royal, 10 places. Veuillez me MP pour participer , sortez de vos combats pour être TP. /w %p "/>
+			<item type="sendChat" label="Boucherie" command=".a Évent Boucherie, 10 places. Veuillez me MP pour participer , sortez de vos combats pour être TP. /w %p "/>
+			<item type="sendChat" label="Carnage Duo" command=".a Évent Carnage Duo, 10 places. Veuillez me MP pour participer , sortez de vos combats pour être TP. /w %p "/>
+			<item type="sendChat" label="Koh-Lanta" command=".a Évent Koh-Lanta, 8 places. Veuillez me MP pour participer , sortez de vos combats pour être TP. /w %p "/>
+		</item>
+
+			
+			<item type="menu" label="&lt;font color='#9B59B6'&gt;Event Skins&lt;/font&gt;">
+			<item type="sendChat" label="Mode" command=".a Évent Mode, 8 places. Veuillez me MP pour participer , sortez de vos combats pour être TP. /w %p "/>
+		</item>
+
+			<item type="menu" label="&lt;font color='#9B59B6'&gt;Event Divers&lt;/font&gt;">
+			<item type="sendChat" label="Lettre" command=".a Évent Lettre, 8 places. Veuillez me MP pour participer, sortez de vos combats pour être TP. /w %p "/>
+			<item type="sendChat" label="Chasse à l'Homme" command=".a Évent Chasse à l'Homme, 8 places. Veuillez me MP pour participer, sortez de vos combats pour être TP.  /w %p "/>			
+			<item type="sendChat" label="Quizz" command=".a Évent Quizz, 8 places. Veuillez me MP pour participer , sortez de vos combats pour être TP.  /w %p "/>
+
+		</item>
+		</item>
+
+
+			
+		<!--REGLES DES EVENTS-->
+			
+	<item type="menu" label="&lt;font color='#9B59B6'&gt;Règles des events&lt;/font&gt;">		
+			
+
+							<item type="static" label="Règles Events"/>
+
+
+			<item type="sendChat" label="Annonce des règles" command="/s Voici donc les règles : "/>
+			
+
+
+
+		<!--REGLES EVENT PVP-->
+
+
+			
+			
+					<item type="menu" label="&lt;font color='#B7741D'&gt;Event PvP&lt;/font&gt;">
+			
+
+			<item type="menu" label="&lt;font color='#B7741D'&gt;Carnage&lt;/font&gt;">
+			<item type="sendChat" label="Générale" command="/s Je vais lancer un combat, vous devrez alors vous entre-tuer pour faire le maximum de kill. Le joueur qui aura faire le + de kill remporte l'évent même si celui-ci est mort avant la fin,"/>
+			<item type="sendChat" label="Invocations Autorisés" command="/s Les invocations sont autorisés. Les attaques contre le staff sont interdites sous peine de disqualification.  "/>
+			<item type="sendChat" label="Est-ce clair ?" command="/s Avez-vous tous bien compris ?"/>
+		</item>
+
+			<item type="menu" label="&lt;font color='#B7741D'&gt;Survie&lt;/font&gt;">
+			<item type="sendChat" label="Générale" command="/s Je vais lancer un combat, vous devrez alors vous entre-tuer pour qu'il ne reste qu'un seul survivant,  "/>
+			<item type="sendChat" label="Dernier en vie...remporte" command="/s Les attaques contre le staff sont interdites sous peine de disqualification. Le dernier en vie remporte l'évent. "/>
+		</item>
+			
+			<item type="menu" label="&lt;font color='#B7741D'&gt;AvsD&lt;/font&gt;">
+			<item type="sendchat" label="Partie 1" command="/s Je vais choisir deux chefs d'équipes! Comme une sorte de balle au prisonnier.. Donc il me faudra 2 équipe de 8 ! "/>
+			<item type="sendchat" label="Partie 2" command="/s Quand vos équipes seront définis, le premier chef d'équipe décidera si il souhaite être en attaque ou en défense, "/>
+			<item type="sendchat" label="Partie 3" command="/s Après cela, les règles seront différente selon l'équipe ! "/>
+			<item type="sendchat" label="Partie 4" command="/s L'équipe défense devra se placer par 2 sur 4 map différente qui s'alligne ( c'est vous qui choisissez vos équipes de 2 ! ) "/>
+			<item type="sendchat" label="Partie 5" command="/s L'équipe d'attaque devra se positionner sur une seule map ( la map à droite du premier niveau de l'équipe défence ) "/>
+			<item type="sendchat" label="Partie 6" command="/s Ainsi, l'équipe d'attaque devra essayer de push les 4 maps en éliminant les teams en défence, pour recommencer en 2v2 puis 1v1 ! "/>
+			<item type="sendchat" label="Partie 7" command="/s Si vous n'avez pas compris, ne vous inquiéter pas, je vous éxpliquerai au fur et à mesur. "/>
+		</item>
+
+			<item type="menu" label="&lt;font color='#B7741D'&gt;PvP&lt;/font&gt;">
+			<item type="sendchat" label="Regle basique" command="/s C'est un tournois pvp basique, il pourra se décliner sous plusieurs formes (de 1v1 à 4v4).">
+		</item>
+
+			<item type="menu" label="&lt;font color='#B7741D'&gt;Boucherie&lt;/font&gt;">
+			<item type="sendchat" label="Partie 1" command="/s Il s'agit tout simplement d'une mêlée générale où le dernier survivant remporte l'event. "/>
+			<item type="sendchat" label="Partie 2" command="/s Il n'y a donc pas d'équipe et les alliances entre joueurs sont interdites. Cependant ce n'est pas une mêlée général comme vous avez habitude ! "/>
+			<item type="sendchat" label="Partie 3" command="/s Tout les sort sont interdit sauf les sort de boost et la maitrîse d'arme ! "/>
+			<item type="sendchat" label="Partie 4" command="/s Un modérateur sera présent par équipe, tout dommage occasionné sur un modérateur sera sanctionné d'une disqualification, le dernier l'emporte ! "/>
+		</item>
+
+			<item type="menu" label="&lt;font color='#B7741D'&gt;Carnage Duo&lt;/font&gt;">
+			<item type="sendchat" label="Partie 1" command="/s Mêmes règles que l'event Carnage, au détail prêt que les joueurs forment des teams de 2, 1 kill = 1 point. "/>
+		</item>
+
+			<item type="menu" label="&lt;font color='#B7741D'&gt;Koh-Lanta&lt;/font&gt;">
+			<item type="sendchat" label="Koh-Lanta !" command="/s L'event est composé de plusieurs manche ( des events rapides et simple ) "/>
+			<item type="sendchat" label="Koh-Lanta 2 !" command="/s Le vainqueur de chaque manche doit éliminer un autre participant, le dernier joueur en partie remporte l'évent. "/>
+		</item>	
+		</item>
+		</item>
+
+
+
+
+
+											<!--REGLES EVENT SKIN-->
+							
+						<item type="menu" label="&lt;font color='#B7741D'&gt;Events Skins&lt;/font&gt;">
+
+
+			<item type="menu" label="&lt;font color='#B7741D'&gt;Mode&lt;/font&gt;">
+			<item type="sendchat" label="Mode" command="/s Je vais vous proposer un thème, vous aurez alors 5 minutes pour aller acheter des items au PNJ's avec le thème demander. "/>
+			<item type="sendchat" label="Mode 2" command="/s Quand vous aurez acheter vos items vous serez alors téléporté à nouveau par moi même (laissez moi un mp pour me prévenir) "/>
+			<item type="sendchat" label="Mode 3" command="/s Je vais donc faire un choix entre les joueurs étant le plus proche du thème proposé, le joueur ayant le plus beau skins du thème remporte l'évent."/>
+		</item>
+		</item>
+
+
+
+
+
+											<!--REGLES EVENT DIVERS-->
+
+
+						<item type="menu" label="&lt;font color='#B7741D'&gt;Event Divers&lt;/font&gt;">
+
+			<item type="menu" label="&lt;font color='#B7741D'&gt;Event Lettre&lt;/font&gt;">
+			<item type="sendChat" label="Générale" command="/s Je vais vous donner une ou plusieurs lettres, vous devrez alors écrire des mots commençant par les lettres que j'ai citées, "/>
+			<item type="sendChat" label="Ortho,maj,accent" command="/s Pour que votre réponse soit acceptée, l'orthographe, les majuscules et les accès sont à respecter ainsi que les noms propres interdit, "/>
+			<item type="sendChat" label="5 points pour gagner" command="/s Vous devez donner 4 lettre minimum par mot, le premier joueur ayant 5 points remporte l'event. "/>
+			<item type="sendChat" label="Exemple" command="/s Exemple : A B C => Aile Bain Chat "/>
+		</item>
+
+			<item type="menu" label="&lt;font color='#B7741D'&gt;Chasse à l'homme&lt;/font&gt;">
+			<item type="sendChat" label="Générale" command="/s Je viens de vous téléporter dans une zone, vous avez 5 minutes pour vous cacher dans cette ZONE, une fois le délai dépasser vous ne bougez plus ! "/>
+			<item type="sendChat" label="Le dernier... remporte" command="/s Le dernier joueur n'ayant pas été trouvé remporte l'évent. C'est PARTIT ! RUN "/>
+		</item>
+
+
+			<item type="menu" label="&lt;font color='#B7741D'&gt;Quizz&lt;/font&gt;">
+			<item type="sendChat" label="Générale" command="/s Je vais vous poser des questions sur un thème précis, vous devez alors répondre à la question le plus rapidement possible,  "/>
+			<item type="sendChat" label="Ortho, maj, accent" command="/s Pour que votre réponse soit acceptée, l'orthographe, les majuscules et les accents sont à respecter, "/>
+			<item type="sendChat" label="Le premier...remporte" command="/s Le premier joueur ayant 5 points remporte l'évent. "/>	
+		</item>
+		</item>
+		</item>
+	
+
+			
+	
+						<item type="sendchat" label="Full" command=".a Event full, désolée."/>
+		
+
+
+			<item type="static" label="&lt;b&gt;téléportations&lt;b&gt;"/>
+			<item type="sendChat" label="Ramener le joueur" command=".namego %p"/>
+			<item type="sendChat" label="Ce téléporter au joueur" command=".goname %p"/>
+			
+
+
+			
+		<item type="static" label="&lt;b&gt;Modération&lt;b&gt;"/>
+
+			
+			<item type="sendchat" label="&lt;font color='#0ECA29'&gt; Mute&lt;/font&gt;" command=".mute %p"/>
+			<item type="sendChat" label="&lt;font color='#0ECA29'&gt; Unmute&lt;/font&gt;" command=".unmute %p"/>	
+			<item type="sendChat" label="&lt;font color='#0ECA29'&gt; Fight Kick&lt;/font&gt;" command=".fight kick %p"/>
+			<item type="sendChat" label="&lt;font color='#0ECA29'&gt; Fight End&lt;/font&gt;" command=".fightend %p"/>
+
+
+
+						<item type="static" label="&lt;b&gt;Téléportations&lt;b&gt;"/>
+
+			<item type="menu" label="&lt;font color='#6ED749'&gt; Utile &lt;/font&gt;">
+			<item type="sendChat" label="Rejoindre" command=".goname %p"/>
+			<item type="sendChat" label="Faire venir" command=".namego %p"/>
+			<item type="sendChat" label="PvP" command=".teleport 88212759 %p"/>
+			<item type="sendChat" label="Start" command=".teleport 88213271 %p"/>
+			<item type="sendChat" label="Enclos" command=".teleport 146802688 %p" />
+			<item type="sendChat" label="Kolizeum" command=".teleport 81788928 %p" />
+			<item type="sendChat" label="Pyramide" command=".teleport 175114244 %p" />
+			<item type="sendChat" label="Dragon Feudala" command=".teleport 171180038 %p" />
+		</item>
+
+
+
+						<item type="menu" label="&lt;font color='#6ED749'&gt; Map Event &lt;/font&gt;">
+
+			<item type="sendChat" label="Map dimenssion Écaflip" command=".go 162004992 %p"/>
+			<item type="sendChat" label="Map Écaflip" command=".go 162267142 %p"/>
+			<item type="sendChat" label="Abyss Sufokia" command=".go 169083904 %p"/>
+			<item type="sendChat" label="Trône de la cour sombre" command=".go 137101312 %p"/>
+			<item type="sendChat" label="Arène Bonta" command=".go 4981249 %p"/>
+			<item type="sendChat" label="Arène Brakmar Terrain Boufball" command=".go 74187778 %p"/>
+			<item type="sendChat" label="Arène Brakmar" command=".go 11796993 %p"/>
+			<item type="sendChat" label="Horologium de XLII" command=".go 143917569  %p"/>
+			<item type="sendChat" label="Mégalithe de Fraktale - Cercle de pierre" command=".go 143138823 %p"/>
+			<item type="sendChat" label="Oeil de vortex - Salle des heures perdues" command=".go 143393281 %p"/>
+			<item type="sendChat" label="Xélorium (Chemins d'hier)" command=".go 44965632 %p"/>
+			<item type="sendChat" label="Xélorium (Jour présent)" command=".go 144703488 %p"/>
+			<item type="sendChat" label="Xélorium (Lendemains incertains)" command=".go 144441344  %p"/>
+		</item>
+
+
+						<item type="menu" label="&lt;font color='#6ED749'&gt; Map arene &lt;/font&gt;">
+
+						<item type="menu" label="&lt;font color='#6ED749'&gt; Map Goultarminator &lt;/font&gt;">
+
+			<item type="sendChat" label="Arene A1" command=".teleport 134479872  %p"/>
+			<item type="sendChat" label="Arene A2" command=".teleport 134480896   %p"/>
+			<item type="sendChat" label="Arene A3" command=".teleport 134481920   %p"/>
+			<item type="sendChat" label="Arene A4" command=".teleport 134482944   %p"/>
+			<item type="sendChat" label="Arene A5" command=".teleport 134483968   %p"/>
+			<item type="sendChat" label="Arene A6" command=".teleport 134484992   %p"/>
+			<item type="sendChat" label="Arene A7" command=".teleport 134479874   %p"/>
+			<item type="sendChat" label="Arene A8" command=".teleport 134480898   %p"/>
+			<item type="sendChat" label="Arene A9" command=".teleport 134481922   %p"/>
+			<item type="sendChat" label="Arene A10" command=".teleport 134482946   %p"/>
+			<item type="sendChat" label="Arene A11" command=".teleport 134483970   %p"/>
+			<item type="sendChat" label="Arene A12" command=".teleport 134484994   %p"/>
+			<item type="sendChat" label="Arene A13" command=".teleport 170393600   %p"/>
+			<item type="sendChat" label="Arene A14" command=".teleport 170394624   %p"/>
+			<item type="sendChat" label="Arene A15" command=".teleport 170395648   %p"/>
+			<item type="sendChat" label="Arene A16" command=".teleport 170393602   %p"/>
+			<item type="sendChat" label="Arene A17" command=".teleport 170394626   %p"/>
+		</item>
+
+
+						<item type="menu" label="&lt;font color='#6ED749'&gt; Map Tournoi 10 Ans &lt;/font&gt;">
+
+			<item type="sendChat" label="TDA 1A" command=".teleport 113508865    %p"/>
+			<item type="sendChat" label="TDA 1B" command=".teleport 113510401    %p"/>
+			<item type="sendChat" label="TDA 1C" command=".teleport 113511937    %p"/>
+			<item type="sendChat" label="TDA 1D" command=".teleport 113508868    %p"/>
+			<item type="sendChat" label="TDA 1E" command=".teleport 113510404    %p"/>
+			<item type="sendChat" label="TDA 1F" command=".teleport 113511940    %p"/>
+			<item type="sendChat" label="TDA 1G" command=".teleport 113508871    %p"/>
+			<item type="sendChat" label="TDA 1H" command=".teleport 113510407    %p"/>
+			<item type="sendChat" label="TDA 1I" command=".teleport 113511943    %p"/>
+			<item type="sendChat" label="TDA 1J" command=".teleport 113508874    %p"/>
+			<item type="sendChat" label="TDA 1K" command=".teleport 113510410    %p"/>
+			<item type="sendChat" label="TDA 1L" command=".teleport 113511946    %p"/>
+			<item type="sendChat" label="TDA 1M" command=".teleport 113508877    %p"/>
+
+		</item>
+		</item>
+						
+						<item type="static" label="&lt;b&gt;Reload &lt;b&gt;"/>
+ 					<item type="loadXML" label="&lt;font color='#00ffff'&gt;Reload XML&lt;/font&gt;"/>
+
+		</menu>
