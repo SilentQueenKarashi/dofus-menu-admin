@@ -1,173 +1,239 @@
-<menu>
-<!-- MENU ADMIN ARENA By JADE Version [Praumat] -->
-<!-- Version 1.0.0 -->
-<!-- ANNONCES -->
-<item type="static" label="<b>Menu Admin By Jade<b>"/>
-<item type="menu" label="<font color='#850606'>Annonces Modérations</font>">
-<item type="static" label="Annonces Modérations"/>
-<item type="sendchat" label="Annonces Modérations" command=".a Bonjour/Bonsoir à tous, n'hésitez pas à me poser la moindre question ou à signaler le moindre problème (bug à signaler, ect...) /w %p"/>
-</item>
-<item type="menu" label="<font color='#9B59B6'>Annonces Animateur</font>">
-<!-- ANNONCES EVENTS -->
-<item type="static" label="Annonce Event"/>
-<item type="menu" label="<font color='#9B59B6'>Event PvP</font>">
-<item type="sendChat" label="Carnage" command=".a Évent Carnage, 10 places. Veuillez me MP pour participer, sortez de vos combats pour être TP. /w %p "/>
-<item type="sendChat" label="Survie" command=".a Évent Survie, 10 places. Veuillez me MP pour participer , sortez de vos combats pour être TP. /w %p "/>
-<item type="sendChat" label="AvsD" command=".a Évent Attaque vs Défence 16 places. Veuillez me MP pour participer , sortez de vos combats pour être TP. /w %p "/>
-<item type="sendChat" label="PvP" command=".a Évent PvP 8 places, Veuillez me MP pour participer , sortez de vos combats pour être TP. /w %p "/>
-<item type="sendChat" label="Battle Royal" command=".a Évent Battle Royal, 10 places. Veuillez me MP pour participer , sortez de vos combats pour être TP. /w %p "/>
-<item type="sendChat" label="Boucherie" command=".a Évent Boucherie, 10 places. Veuillez me MP pour participer , sortez de vos combats pour être TP. /w %p "/>
-<item type="sendChat" label="Carnage Duo" command=".a Évent Carnage Duo, 10 places. Veuillez me MP pour participer , sortez de vos combats pour être TP. /w %p "/>
-<item type="sendChat" label="Koh-Lanta" command=".a Évent Koh-Lanta, 8 places. Veuillez me MP pour participer , sortez de vos combats pour être TP. /w %p "/>
-</item>
-<item type="menu" label="<font color='#9B59B6'>Event Skins</font>">
-<item type="sendChat" label="Mode" command=".a Évent Mode, 8 places. Veuillez me MP pour participer , sortez de vos combats pour être TP. /w %p "/>
-</item>
-<item type="menu" label="<font color='#9B59B6'>Event Divers</font>">
-<item type="sendChat" label="Lettre" command=".a Évent Lettre, 8 places. Veuillez me MP pour participer, sortez de vos combats pour être TP. /w %p "/>
-<item type="sendChat" label="Chasse à l'Homme" command=".a Évent Chasse à l'Homme, 8 places. Veuillez me MP pour participer, sortez de vos combats pour être TP. /w %p "/>
-<item type="sendChat" label="Quizz" command=".a Évent Quizz, 8 places. Veuillez me MP pour participer , sortez de vos combats pour être TP. /w %p "/>
-</item>
-</item>
-<!-- REGLES DES EVENTS -->
-<item type="menu" label="<font color='#9B59B6'>Règles des events</font>">
-<item type="static" label="Règles Events"/>
-<item type="sendChat" label="Annonce des règles" command="/s Voici donc les règles : "/>
-<!-- REGLES EVENT PVP -->
-<item type="menu" label="<font color='#B7741D'>Event PvP</font>">
-<item type="menu" label="<font color='#B7741D'>Carnage</font>">
-<item type="sendChat" label="Générale" command="/s Je vais lancer un combat, vous devrez alors vous entre-tuer pour faire le maximum de kill. Le joueur qui aura faire le + de kill remporte l'évent même si celui-ci est mort avant la fin,"/>
-<item type="sendChat" label="Invocations Autorisés" command="/s Les invocations sont autorisés. Les attaques contre le staff sont interdites sous peine de disqualification. "/>
-<item type="sendChat" label="Est-ce clair ?" command="/s Avez-vous tous bien compris ?"/>
-</item>
-<item type="menu" label="<font color='#B7741D'>Survie</font>">
-<item type="sendChat" label="Générale" command="/s Je vais lancer un combat, vous devrez alors vous entre-tuer pour qu'il ne reste qu'un seul survivant, "/>
-<item type="sendChat" label="Dernier en vie...remporte" command="/s Les attaques contre le staff sont interdites sous peine de disqualification. Le dernier en vie remporte l'évent. "/>
-</item>
-<item type="menu" label="<font color='#B7741D'>AvsD</font>">
-<item type="sendchat" label="Partie 1" command="/s Je vais choisir deux chefs d'équipes! Comme une sorte de balle au prisonnier.. Donc il me faudra 2 équipe de 8 ! "/>
-<item type="sendchat" label="Partie 2" command="/s Quand vos équipes seront définis, le premier chef d'équipe décidera si il souhaite être en attaque ou en défense, "/>
-<item type="sendchat" label="Partie 3" command="/s Après cela, les règles seront différente selon l'équipe ! "/>
-<item type="sendchat" label="Partie 4" command="/s L'équipe défense devra se placer par 2 sur 4 map différente qui s'alligne ( c'est vous qui choisissez vos équipes de 2 ! ) "/>
-<item type="sendchat" label="Partie 5" command="/s L'équipe d'attaque devra se positionner sur une seule map ( la map à droite du premier niveau de l'équipe défence ) "/>
-<item type="sendchat" label="Partie 6" command="/s Ainsi, l'équipe d'attaque devra essayer de push les 4 maps en éliminant les teams en défence, pour recommencer en 2v2 puis 1v1 ! "/>
-<item type="sendchat" label="Partie 7" command="/s Si vous n'avez pas compris, ne vous inquiéter pas, je vous éxpliquerai au fur et à mesur. "/>
-</item>
-<item type="menu" label="<font color='#B7741D'>PvP</font>">
-<item type="sendchat" label="Regle basique" command="/s C'est un tournois pvp basique, il pourra se décliner sous plusieurs formes (de 1v1 à 4v4)."> </item>
-<item type="menu" label="<font color='#B7741D'>Boucherie</font>">
-<item type="sendchat" label="Partie 1" command="/s Il s'agit tout simplement d'une mêlée générale où le dernier survivant remporte l'event. "/>
-<item type="sendchat" label="Partie 2" command="/s Il n'y a donc pas d'équipe et les alliances entre joueurs sont interdites. Cependant ce n'est pas une mêlée général comme vous avez habitude ! "/>
-<item type="sendchat" label="Partie 3" command="/s Tout les sort sont interdit sauf les sort de boost et la maitrîse d'arme ! "/>
-<item type="sendchat" label="Partie 4" command="/s Un modérateur sera présent par équipe, tout dommage occasionné sur un modérateur sera sanctionné d'une disqualification, le dernier l'emporte ! "/>
-</item>
-<item type="menu" label="<font color='#B7741D'>Carnage Duo</font>">
-<item type="sendchat" label="Partie 1" command="/s Mêmes règles que l'event Carnage, au détail prêt que les joueurs forment des teams de 2, 1 kill = 1 point. "/>
-</item>
-<item type="menu" label="<font color='#B7741D'>Koh-Lanta</font>">
-<item type="sendchat" label="Koh-Lanta !" command="/s L'event est composé de plusieurs manche ( des events rapides et simple ) "/>
-<item type="sendchat" label="Koh-Lanta 2 !" command="/s Le vainqueur de chaque manche doit éliminer un autre participant, le dernier joueur en partie remporte l'évent. "/>
-</item>
-</item>
-</item>
-<!-- REGLES EVENT SKIN -->
-<item type="menu" label="<font color='#B7741D'>Events Skins</font>">
-<item type="menu" label="<font color='#B7741D'>Mode</font>">
-<item type="sendchat" label="Mode" command="/s Je vais vous proposer un thème, vous aurez alors 5 minutes pour aller acheter des items au PNJ's avec le thème demander. "/>
-<item type="sendchat" label="Mode 2" command="/s Quand vous aurez acheter vos items vous serez alors téléporté à nouveau par moi même (laissez moi un mp pour me prévenir) "/>
-<item type="sendchat" label="Mode 3" command="/s Je vais donc faire un choix entre les joueurs étant le plus proche du thème proposé, le joueur ayant le plus beau skins du thème remporte l'évent."/>
-</item>
-</item>
-<!-- REGLES EVENT DIVERS -->
-<item type="menu" label="<font color='#B7741D'>Event Divers</font>">
-<item type="menu" label="<font color='#B7741D'>Event Lettre</font>">
-<item type="sendChat" label="Générale" command="/s Je vais vous donner une ou plusieurs lettres, vous devrez alors écrire des mots commençant par les lettres que j'ai citées, "/>
-<item type="sendChat" label="Ortho,maj,accent" command="/s Pour que votre réponse soit acceptée, l'orthographe, les majuscules et les accès sont à respecter ainsi que les noms propres interdit, "/>
-<item type="sendChat" label="5 points pour gagner" command="/s Vous devez donner 4 lettre minimum par mot, le premier joueur ayant 5 points remporte l'event. "/>
-<item type="sendChat" label="Exemple" command="/s Exemple : A B C => Aile Bain Chat "/>
-</item>
-<item type="menu" label="<font color='#B7741D'>Chasse à l'homme</font>">
-<item type="sendChat" label="Générale" command="/s Je viens de vous téléporter dans une zone, vous avez 5 minutes pour vous cacher dans cette ZONE, une fois le délai dépasser vous ne bougez plus ! "/>
-<item type="sendChat" label="Le dernier... remporte" command="/s Le dernier joueur n'ayant pas été trouvé remporte l'évent. C'est PARTIT ! RUN "/>
-</item>
-<item type="menu" label="<font color='#B7741D'>Quizz</font>">
-<item type="sendChat" label="Générale" command="/s Je vais vous poser des questions sur un thème précis, vous devez alors répondre à la question le plus rapidement possible, "/>
-<item type="sendChat" label="Ortho, maj, accent" command="/s Pour que votre réponse soit acceptée, l'orthographe, les majuscules et les accents sont à respecter, "/>
-<item type="sendChat" label="Le premier...remporte" command="/s Le premier joueur ayant 5 points remporte l'évent. "/>
-</item>
-</item>
-</item>
-<item type="sendchat" label="Full" command=".a Event full, désolée."/>
-<item type="static" label="<b>téléportations<b>"/>
-<item type="sendChat" label="Ramener le joueur" command=".namego %p"/>
-<item type="sendChat" label="Ce téléporter au joueur" command=".goname %p"/>
-<item type="static" label="<b>Modération<b>"/>
-<item type="sendchat" label="<font color='#0ECA29'> Mute</font>" command=".mute %p"/>
-<item type="sendChat" label="<font color='#0ECA29'> Unmute</font>" command=".unmute %p"/>
-<item type="sendChat" label="<font color='#0ECA29'> Fight Kick</font>" command=".fight kick %p"/>
-<item type="sendChat" label="<font color='#0ECA29'> Fight End</font>" command=".fightend %p"/>
-<item type="static" label="<b>Téléportations<b>"/>
-<item type="menu" label="<font color='#6ED749'> Utile </font>">
-<item type="sendChat" label="Rejoindre" command=".goname %p"/>
-<item type="sendChat" label="Faire venir" command=".namego %p"/>
-<item type="sendChat" label="PvP" command=".teleport 88212759 %p"/>
-<item type="sendChat" label="Start" command=".teleport 88213271 %p"/>
-<item type="sendChat" label="Enclos" command=".teleport 146802688 %p"/>
-<item type="sendChat" label="Kolizeum" command=".teleport 81788928 %p"/>
-<item type="sendChat" label="Pyramide" command=".teleport 175114244 %p"/>
-<item type="sendChat" label="Dragon Feudala" command=".teleport 171180038 %p"/>
-</item>
-<item type="menu" label="<font color='#6ED749'> Map Event </font>">
-<item type="sendChat" label="Map dimenssion Écaflip" command=".go 162004992 %p"/>
-<item type="sendChat" label="Map Écaflip" command=".go 162267142 %p"/>
-<item type="sendChat" label="Abyss Sufokia" command=".go 169083904 %p"/>
-<item type="sendChat" label="Trône de la cour sombre" command=".go 137101312 %p"/>
-<item type="sendChat" label="Arène Bonta" command=".go 4981249 %p"/>
-<item type="sendChat" label="Arène Brakmar Terrain Boufball" command=".go 74187778 %p"/>
-<item type="sendChat" label="Arène Brakmar" command=".go 11796993 %p"/>
-<item type="sendChat" label="Horologium de XLII" command=".go 143917569 %p"/>
-<item type="sendChat" label="Mégalithe de Fraktale - Cercle de pierre" command=".go 143138823 %p"/>
-<item type="sendChat" label="Oeil de vortex - Salle des heures perdues" command=".go 143393281 %p"/>
-<item type="sendChat" label="Xélorium (Chemins d'hier)" command=".go 44965632 %p"/>
-<item type="sendChat" label="Xélorium (Jour présent)" command=".go 144703488 %p"/>
-<item type="sendChat" label="Xélorium (Lendemains incertains)" command=".go 144441344 %p"/>
-</item>
-<item type="menu" label="<font color='#6ED749'> Map arene </font>">
-<item type="menu" label="<font color='#6ED749'> Map Goultarminator </font>">
-<item type="sendChat" label="Arene A1" command=".teleport 134479872 %p"/>
-<item type="sendChat" label="Arene A2" command=".teleport 134480896 %p"/>
-<item type="sendChat" label="Arene A3" command=".teleport 134481920 %p"/>
-<item type="sendChat" label="Arene A4" command=".teleport 134482944 %p"/>
-<item type="sendChat" label="Arene A5" command=".teleport 134483968 %p"/>
-<item type="sendChat" label="Arene A6" command=".teleport 134484992 %p"/>
-<item type="sendChat" label="Arene A7" command=".teleport 134479874 %p"/>
-<item type="sendChat" label="Arene A8" command=".teleport 134480898 %p"/>
-<item type="sendChat" label="Arene A9" command=".teleport 134481922 %p"/>
-<item type="sendChat" label="Arene A10" command=".teleport 134482946 %p"/>
-<item type="sendChat" label="Arene A11" command=".teleport 134483970 %p"/>
-<item type="sendChat" label="Arene A12" command=".teleport 134484994 %p"/>
-<item type="sendChat" label="Arene A13" command=".teleport 170393600 %p"/>
-<item type="sendChat" label="Arene A14" command=".teleport 170394624 %p"/>
-<item type="sendChat" label="Arene A15" command=".teleport 170395648 %p"/>
-<item type="sendChat" label="Arene A16" command=".teleport 170393602 %p"/>
-<item type="sendChat" label="Arene A17" command=".teleport 170394626 %p"/>
-</item>
-<item type="menu" label="<font color='#6ED749'> Map Tournoi 10 Ans </font>">
-<item type="sendChat" label="TDA 1A" command=".teleport 113508865 %p"/>
-<item type="sendChat" label="TDA 1B" command=".teleport 113510401 %p"/>
-<item type="sendChat" label="TDA 1C" command=".teleport 113511937 %p"/>
-<item type="sendChat" label="TDA 1D" command=".teleport 113508868 %p"/>
-<item type="sendChat" label="TDA 1E" command=".teleport 113510404 %p"/>
-<item type="sendChat" label="TDA 1F" command=".teleport 113511940 %p"/>
-<item type="sendChat" label="TDA 1G" command=".teleport 113508871 %p"/>
-<item type="sendChat" label="TDA 1H" command=".teleport 113510407 %p"/>
-<item type="sendChat" label="TDA 1I" command=".teleport 113511943 %p"/>
-<item type="sendChat" label="TDA 1J" command=".teleport 113508874 %p"/>
-<item type="sendChat" label="TDA 1K" command=".teleport 113510410 %p"/>
-<item type="sendChat" label="TDA 1L" command=".teleport 113511946 %p"/>
-<item type="sendChat" label="TDA 1M" command=".teleport 113508877 %p"/>
-</item>
-</item>
-<item type="static" label="<b>Reload <b>"/>
-<item type="loadXML" label="<font color='#00ffff'>Reload XML</font>"/>
-</menu>
+<commands>
+    <item type="static" label="MENU ADMIN Karashi"/>
+        <item type="sendCommand" label="&lt;font color='#9e0003'&gt;🎒 PANEL ITEM&lt;/font&gt;" command="item add #item"/>
+        <item type="menu" label="&lt;font color='#6A00E5'&gt;SERVEUR&lt;/font&gt;">
+            <item type="sendCommand" label="&lt;font color='#7300FE'&gt;🟥 Effectuer une sauvegarde du serveur&lt;/font&gt;" command="save world"/>
+            <item type="sendChat" label="&lt;font color='#9A33FF'&gt;🟩 Reload Npcs&lt;/font&gt;" command=".reload npcs"/>
+            <item type="loadXML" label="&lt;font color='#B066FF'&gt;🟪 Reload XML&lt;/font&gt;"/>
+            <item type="static" label="🔄 Reboot"/>
+            <item type="menu" label="&lt;font color='#D6A5FF'&gt;Que voulez-vous faire ?&lt;/font&gt;">
+                <item type="sendCommand" label="&lt;font color='#f87706'&gt;🟧 Annonce Reboot&lt;/font&gt;" command=".a un reboot va etre fait. Ne lancez plus de combat"/>
+                <item type="sendCommand" label="&lt;font color='#00FF00'&gt;🟩 Sauvegarde&lt;/font&gt;" command="save"/>
+                <item type="sendCommand" label="&lt;font color='#FF0000'&gt;🟥 Stop&lt;/font&gt;" command="stop"/>
+            </item>
+        </item>
+
+    <item type="menu" label="&lt;font color='#8B00FF'&gt;UTILITAIRE&lt;/font&gt;">
+        <item type="menu" label="&lt;font color='#A32EFF'&gt;ANNONCE&lt;/font&gt;">
+            <item type="sendChat" label="&lt;font color='#C257FF'&gt;📢 Annonce: Dispo MP&lt;/font&gt;" command=".a Bonjour à tous, je suis dispo en MP si vous avez besoin. /w %p"/>
+            <item type="sendChat" label="&lt;font color='#E28FFF'&gt;📢 Annonce: Ticket Discord&lt;/font&gt;" command=".a Vous avez un problème ? Ouvrez un #Ticket sur le discord !"/>
+            <item type="sendChat" label="&lt;font color='#F7C6FF'&gt;📢 Annonce: PUB Discord&lt;/font&gt;" command=".a Oubliez pas de nous rejoindre sur discord: https://discord.gg/ARGUS"/>
+            <item type="sendChat" label="&lt;font color='#333CFF'&gt;📢 Annonce: Rappel Transfère Ogrines&lt;/font&gt;" command=".a Je vous rappelle que vous devez impérativement être déconnecté du jeu pour pouvoir recevoir vos Ogrines via le site !"/>
+        </item>
+        <item type="menu" label="&lt;font color='#00FFFF'&gt;INFORMATION&lt;/font&gt;">
+            <item type="sendCommand" label="&lt;font color='#f87706'&gt;🟧 Affiche le nombre de joueurs&lt;/font&gt;" command="info"/>
+            <item type="sendCommand" label="&lt;font color='#FFE000'&gt;🟨 Affiche le nombre d'IP connecté&lt;/font&gt;" command="infoip"/>
+            <item type="sendCommand" label="&lt;font color='#D8FF00'&gt;🟩 Information du personnage&lt;/font&gt;" command="info char %p true"/>
+            <item type="sendChat" label="&lt;font color='#83FF00'&gt;🟩 Affiche les joueurs chat&lt;/font&gt;" command=".who"/>
+        </item>
+    </item>
+
+    <item type="menu" label="&lt;font color='#7B00E5'&gt;ADMINISTRATION&lt;/font&gt;">
+        <item type="static" label="🏛️ Prison"/>
+        <item type="menu" label="&lt;font color='#9400FF'&gt;Emprisonner le joueur pour ?&lt;/font&gt;">
+            <item type="sendCommand" label="&lt;font color='#AF33FF'&gt;1 minute&lt;/font&gt;" command="jail %p 1 Non respect des règles"/>
+            <item type="sendCommand" label="&lt;font color='#D066FF'&gt;5 minutes&lt;/font&gt;" command="jail %p 5 Non respect des règles"/>
+            <item type="sendCommand" label="&lt;font color='#EB99FF'&gt;10 minutes&lt;/font&gt;" command="jail %p 10 Non respect des règles"/>
+            <item type="sendCommand" label="&lt;font color='#B066FF'&gt;30 minutes&lt;/font&gt;" command="jail %p 30 Non respect des règles"/>
+            <item type="sendCommand" label="&lt;font color='#83FF00'&gt;🟩 Faire sortir de prison&lt;/font&gt;" command="unjail %p"/>
+        </item>
+
+        <item type="static" label="👢 Kick"/>
+        <item type="sendCommand" label="&lt;font color='#ccdd00'&gt;🟨 Kicker le joueur&lt;/font&gt;" command="kick %p"/>
+
+        <item type="static" label="🚫 Bannir"/>
+        <item type="menu" label="&lt;font color='#600080'&gt;Bannir le joueur pour ?&lt;/font&gt;">
+            <item type="sendCommand" label="&lt;font color='#8200B3'&gt;🕒 30 minutes&lt;/font&gt;" command="ban %p 30 Délinquant false false"/>
+            <item type="sendCommand" label="&lt;font color='#A500E6'&gt;🕒 1 heure&lt;/font&gt;" command="ban %p 60 Délinquant false false"/>
+            <item type="sendCommand" label="&lt;font color='#C966FF'&gt;📆 1 jour&lt;/font&gt;" command="ban %p 1440 Délinquant false false"/>
+            <item type="sendCommand" label="&lt;font color='#EBA5FF'&gt;📆 2 jours&lt;/font&gt;" command="ban %p 2880 Délinquant false false"/>
+            <item type="sendCommand" label="&lt;font color='#FF00A7'&gt;📆 5 jours&lt;/font&gt;" command="ban %p 7200 Délinquant false false"/>
+            <item type="sendCommand" label="&lt;font color='#FF00A7'&gt;📆 1 semaine&lt;/font&gt;" command="ban %p 10080 Délinquant false false"/>
+            <item type="sendCommand" label="&lt;font color='#FF0000'&gt;🚫 À vie&lt;/font&gt;" command="ban %p 99999999 Délinquant true true"/>
+        </item>
+
+        <item type="static" label="💰 Ajouts"/>
+        <item type="menu" label="&lt;font color='#6E0096'&gt;💸 Kamas&lt;/font&gt;">
+            <item type="sendCommand" label="&lt;font color='#8200C1'&gt;💰 1M kamas&lt;/font&gt;" command="kamas 1000000 %p"/>
+            <item type="sendCommand" label="&lt;font color='#A066E5'&gt;💰 10M kamas&lt;/font&gt;" command="kamas 10000000 %p"/>
+            <item type="sendCommand" label="&lt;font color='#B593FF'&gt;💰 50M kamas&lt;/font&gt;" command="kamas 50000000 %p"/>
+            <item type="sendCommand" label="&lt;font color='#DAB3FF'&gt;💰 100M kamas&lt;/font&gt;" command="kamas 100000000 %p"/>
+            <item type="sendCommand" label="&lt;font color='#B593FF'&gt;💰 500M kamas&lt;/font&gt;" command="kamas 500000000 %p"/>
+            <item type="sendCommand" label="&lt;font color='#A066E5'&gt;💰 1MM kamas&lt;/font&gt;" command="kamas 1000000000 %p"/>
+            <item type="sendCommand" label="&lt;font color='#8200C1'&gt;💰 5MM kamas&lt;/font&gt;" command="kamas 5000000000 %p"/>
+        </item>
+
+        <item type="menu" label="&lt;font color='#C1FF00'&gt;🐉 Dofus&lt;/font&gt;">
+            <item type="sendCommand" label="&lt;font color='#D2FF00'&gt;🟡 Ocre&lt;/font&gt;" command="item add 7754 1 %p true"/>
+            <item type="sendCommand" label="&lt;font color='#D2FF00'&gt;🟡 Vulbis&lt;/font&gt;" command="item add 6980 1 %p true"/>
+            <item type="sendCommand" label="&lt;font color='#D2FF00'&gt;🟡 Émeraude&lt;/font&gt;" command="item add 737 1 %p true"/>
+            <item type="sendCommand" label="&lt;font color='#D2FF00'&gt;🟡 Pourpre&lt;/font&gt;" command="item add 694 1 %p true"/>
+            <item type="sendCommand" label="&lt;font color='#D2FF00'&gt;❄️ Dofus des glaces&lt;/font&gt;" command="item add 7043 1 %p true"/>
+            <item type="sendCommand" label="&lt;font color='#D2FF00'&gt;🌊 Abyssal&lt;/font&gt;" command="item add 18043 1 %p true"/>
+            <item type="sendCommand" label="&lt;font color='#D2FF00'&gt;🟡 Ivoire&lt;/font&gt;" command="item add 30199 1 %p true"/>
+            <item type="sendCommand" label="&lt;font color='#D2FF00'&gt;🟡 Ébène&lt;/font&gt;" command="item add 7114 1 %p true"/>
+            <item type="sendCommand" label="&lt;font color='#D2FF00'&gt;🟡 Cawotte&lt;/font&gt;" command="item add 972 1 %p true"/>
+            <item type="sendCommand" label="&lt;font color='#D2FF00'&gt;🟡 Turquoise&lt;/font&gt;" command="item add 739 1 %p true"/>
+            <item type="sendCommand" label="&lt;font color='#D2FF00'&gt;🟡 Dolmanax&lt;/font&gt;" command="item add 13344 1 %p true"/>
+            <item type="sendCommand" label="&lt;font color='#D2FF00'&gt;🟡 Nébuleux&lt;/font&gt;" command="item add 8698 1 %p true"/>
+            <item type="sendCommand" label="&lt;font color='#D2FF00'&gt;🟡 Argenté Scintillant&lt;/font&gt;" command="item add 20286 1 %p true"/>
+            <item type="sendCommand" label="&lt;font color='#D2FF00'&gt;🟡 Forgelave&lt;/font&gt;" command="item add 19398 1 %p true"/>
+            <item type="sendCommand" label="&lt;font color='#D2FF00'&gt;🟡 Kaliptus&lt;/font&gt;" command="item add 8072 1 %p true"/>
+            <item type="sendCommand" label="&lt;font color='#D2FF00'&gt;🟡 Dokoko&lt;/font&gt;" command="item add 17078 1 %p true"/>
+        </item>
+        
+
+        <item type="menu" label="&lt;font color='#06A4F9'&gt;🎒 Items&lt;/font&gt;">
+            <item type="menu" label="&lt;font color='#06A4F9'&gt;Combien voulez-vous de Potion Percepteur ?&lt;/font&gt;">
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🥤 1 Potion perco&lt;/font&gt;" command="item add 14553 1 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🥤 3 Potion perco&lt;/font&gt;" command="item add 14553 3 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🥤 5 Potion perco&lt;/font&gt;" command="item add 14553 5 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🥤 10 Potion perco&lt;/font&gt;" command="item add 14553 10 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🥤 50 Potion perco&lt;/font&gt;" command="item add 14553 50 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🥤 100 Potion perco&lt;/font&gt;" command="item add 14553 100 %p true"/>
+            </item>
+            <item type="menu" label="&lt;font color='#06A4F9'&gt;Combien voulez-vous de Bonbon 100 Propection ?&lt;/font&gt;">
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 1 Bonbon PP&lt;/font&gt;" command="item add 30192 1 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 3 Bonbon PP&lt;/font&gt;" command="item add 30192 3 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 5 Bonbon PP&lt;/font&gt;" command="item add 30192 5 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 10 Bonbon PP&lt;/font&gt;" command="item add 30192 10 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 50 Bonbon PP&lt;/font&gt;" command="item add 30192 50 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 100 Bonbon PP&lt;/font&gt;" command="item add 30192 100 %p true"/>
+            </item>
+            <item type="menu" label="&lt;font color='#06A4F9'&gt;Combien voulez-vous de Bonbon 200 Sagesse ?&lt;/font&gt;">
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 1 Bonbon Sasa&lt;/font&gt;" command="item add 30176 1 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 3 Bonbon Sasa&lt;/font&gt;" command="item add 30176 3 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 5 Bonbon Sasa&lt;/font&gt;" command="item add 30176 5 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 10 Bonbon Sasa&lt;/font&gt;" command="item add 30176 10 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 50 Bonbon Sasa&lt;/font&gt;" command="item add 30176 50 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 100 Bonbon Sasa&lt;/font&gt;" command="item add 30176 100 %p true"/>
+            </item>
+            <item type="menu" label="&lt;font color='#06A4F9'&gt;Combien voulez-vous de Bonbon 1 PA ?&lt;/font&gt;">
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 1 Bonbon PA&lt;/font&gt;" command="item add 30178 1 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 3 Bonbon PA&lt;/font&gt;" command="item add 30178 3 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 5 Bonbon PA&lt;/font&gt;" command="item add 30178 5 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 10 Bonbon PA&lt;/font&gt;" command="item add 30178 10 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 50 Bonbon PA&lt;/font&gt;" command="item add 30178 50 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 100 Bonbon PA&lt;/font&gt;" command="item add 30178 100 %p true"/>
+            </item>
+            <item type="menu" label="&lt;font color='#06A4F9'&gt;Combien voulez-vous de Bonbon 1 PM ?&lt;/font&gt;">
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 1 Bonbon PM&lt;/font&gt;" command="item add 30180 1 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 3 Bonbon PM&lt;/font&gt;" command="item add 30180 3 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 5 Bonbon PM&lt;/font&gt;" command="item add 30180 5 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 10 Bonbon PM&lt;/font&gt;" command="item add 30180 10 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 50 Bonbon PM&lt;/font&gt;" command="item add 30180 50 %p true"/>
+                <item type="sendCommand" label="&lt;font color='#06C7F9'&gt;🍬 100 Bonbon PM&lt;/font&gt;" command="item add 30180 100 %p true"/>
+            </item>
+        </item>
+
+        <item type="menu" label="&lt;font color='#453BFF'&gt;🌟 Niveaux&lt;/font&gt;">
+            <item type="sendCommand" label="&lt;font color='#0223FC'&gt;🔺 20 Niveaux&lt;/font&gt;" command="lvlup 20 %p"/>
+            <item type="sendCommand" label="&lt;font color='#0223FC'&gt;🔺 50 Niveaux&lt;/font&gt;" command="lvlup 50 %p"/>
+            <item type="sendCommand" label="&lt;font color='#0223FC'&gt;🔺 100 Niveaux&lt;/font&gt;" command="lvlup 100 %p"/>
+            <item type="sendCommand" label="&lt;font color='#0223FC'&gt;🔺 150 Niveaux&lt;/font&gt;" command="lvlup 150 %p"/>
+            <item type="sendCommand" label="&lt;font color='#0223FC'&gt;🔺 200 Niveaux&lt;/font&gt;" command="lvlup 200 %p"/>
+        </item>
+        
+        <item type="menu" label="&lt;font color='#7300fe'&gt;🎖️ Titres/Ornements&lt;/font&gt;">
+            <item type="sendCommand" label="&lt;font color='#9800FE'&gt;🎖️ Titres&lt;/font&gt;" command="title add %p -all"/>
+            <item type="sendCommand" label="&lt;font color='#9800FE'&gt;🛡️ Ornements&lt;/font&gt;" command="ornament add %p -all"/>
+        </item>
+
+        <item type="menu" label="&lt;font color='#F15CFA'&gt;✨ Sorts&lt;/font&gt;">
+            <item type="sendCommand" label="&lt;font color='#F181FA'&gt;☠️ Doom&lt;/font&gt;" command="spell learn 1117 %p"/>
+            <item type="sendCommand" label="&lt;font color='#F181FA'&gt;⚔️ Tuerie&lt;/font&gt;" command="spell learn 411 %p"/>
+            <item type="sendChat" label="&lt;font color='#F181FA'&gt;💣 Piège sournois&lt;/font&gt;" command=".spell learn 65 %p"/>
+            <item type="sendChat" label="&lt;font color='#F181FA'&gt;🔥 Tornabombe&lt;/font&gt;" command=".spell learn 2796 %p"/>
+            <item type="sendChat" label="&lt;font color='#F181FA'&gt;💥 Flamiche&lt;/font&gt;" command=".spell learn 350 %p"/>
+            <item type="sendChat" label="&lt;font color='#F181FA'&gt;🌀 Mot déroutant&lt;/font&gt;" command=".spell learn 135 %p"/>
+        </item>
+
+        <item type="menu" label="&lt;font color='#FF078F'&gt;🎯 Caractéristiques&lt;/font&gt;">
+            <item type="sendCommand" label="&lt;font color='#FF376F'&gt;🎯 50 Points de Caractéristiques&lt;/font&gt;" command="stats 50 %p"/>
+            <item type="sendCommand" label="&lt;font color='#FF376F'&gt;🎯 100 Points de Caractéristiques&lt;/font&gt;" command="stats 100 %p"/>
+            <item type="sendCommand" label="&lt;font color='#FF376F'&gt;🎯 250 Points de Caractéristiques&lt;/font&gt;" command="stats 250 %p"/>
+            <item type="sendCommand" label="&lt;font color='#FF376F'&gt;🎯 500 Points de Caractéristiques&lt;/font&gt;" command="stats 500 %p"/>
+            <item type="sendCommand" label="&lt;font color='#FF376F'&gt;🎯 1 000 Points de Caractéristiques&lt;/font&gt;" command="stats 1000 %p"/>
+            <item type="sendCommand" label="&lt;font color='#FF376F'&gt;🎯 5 000 Points de Caractéristiques&lt;/font&gt;" command="stats 5000 %p"/>
+            <item type="sendCommand" label="&lt;font color='#FF376F'&gt;🎯 10 000 Points de Caractéristiques&lt;/font&gt;" command="stats 10000 %p"/>
+            <item type="sendCommand" label="&lt;font color='#FF376F'&gt;🎯 30 000 Points de Caractéristiques&lt;/font&gt;" command="stats 30000 %p"/>
+            <item type="sendCommand" label="&lt;font color='#FF376F'&gt;🎯 50 000 Points de Caractéristiques&lt;/font&gt;" command="stats 50000 %p"/>
+            <item type="sendCommand" label="&lt;font color='#FF376F'&gt;🎯 100 000 Points de Caractéristiques&lt;/font&gt;" command="stats 100000 %p"/>
+            <item type="sendCommand" label="&lt;font color='#FF376F'&gt;🎯 300 000 Points de Caractéristiques&lt;/font&gt;" command="stats 300000 %p"/>
+            <item type="sendCommand" label="&lt;font color='#FF376F'&gt;🎯 500 000 Points de Caractéristiques&lt;/font&gt;" command="stats 500000 %p"/>
+            <item type="sendCommand" label="&lt;font color='#FF376F'&gt;🎯 1 000 000 Points de Caractéristiques&lt;/font&gt;" command="stats 1000000 %p"/>
+        </item>
+
+        <item type="menu" label="&lt;font color='#FF078F'&gt;🐉 Monstre / Sort / Items / Tactic&lt;/font&gt;">
+            <item type="sendCommand" label="👾 Spawn Monstre" command="monster spawn #monster"/>
+            <item type="sendCommand" label="📜 Ajouter un sort" command="spell add #spell %p"/>
+            <item type="sendCommand" label="❌ Remove un sort" command="spell remove #spell %p"/>
+            <item type="sendCommand" label="🎒 Ajouter un item" command="item add #item"/>
+            <item type="sendCommand" label="❌ Remove un item" command="item remove #item %p"/>
+            <item type="sendCommand" label="🎯 Mode Tactic On" command="/tacticmode show=true"/>
+            <item type="sendCommand" label="🎯 Mode Tactic Off" command="/tacticmode show=false"/>
+        </item>
+
+        <item type="menu" label="&lt;font color='#f87706'&gt;🛡️ Guilde&lt;/font&gt;"> 
+            <item type="sendCommand" label="&lt;font color='#F89606'&gt;🏰 Give 1 Guildalogemme&lt;/font&gt;" command="item add 1575 1 %p true"/>
+            <item type="sendCommand" label="&lt;font color='#F89606'&gt;⚒️ Création de Guilde&lt;/font&gt;" command="guild Create %p"/>
+            <item type="sendCommand" label="&lt;font color='#F89606'&gt;⚔️ Rejoindre la Guilde du Joueur&lt;/font&gt;" command="guild join %p"/>
+            <item type="sendCommand" label="&lt;font color='#F89606'&gt;👑 Devenir Meneur de la Guilde du Joueur&lt;/font&gt;" command="guild Boss %p"/>
+        </item>
+    </item>
+
+    <item type="menu" label="&lt;font color='#0065FF'&gt;MODÉRATION&lt;/font&gt;">
+        <item type="menu" label="&lt;font color='#aaeeff'&gt;🚀 Téléportation&lt;/font&gt;">
+            <item type="sendCommand" label="&lt;font color='#35ad85'&gt;Se téléporter au joueur&lt;/font&gt;" command="goname %p"/>
+            <item type="sendCommand" label="&lt;font color='#35ad85'&gt;Téléporter le joueur sur vous&lt;/font&gt;" command="namego %p"/>
+        </item>
+
+        <item type="menu" label="&lt;font color='#FF8D0D'&gt;🛡️ GodMod&lt;/font&gt;">
+            <item type="sendCommand" label="&lt;font color='#00FF00'&gt;🛡️ Activé le GOD&lt;/font&gt;" command="god on %p"/>
+            <item type="sendCommand" label="&lt;font color='#FF0000'&gt;🛡️ Désactivé le GOD&lt;/font&gt;" command="god off %p"/>
+        </item>
+
+        <item type="menu" label="&lt;font color='#B0F905'&gt;🔍 Fouiller le joueur&lt;/font&gt;">
+            <item type="sendCommand" label="&lt;font color='#B0CA05'&gt;🎒 Inventaire&lt;/font&gt;" command="item showinv %p"/>
+            <item type="sendCommand" label="&lt;font color='#B0CA05'&gt;🏦 Banque&lt;/font&gt;" command="bank open %p"/>
+            <item type="sendCommand" label="&lt;font color='#B0CA05'&gt;🛒 Mode Marchand&lt;/font&gt;" command="merchant show %p"/>
+            <item type="sendCommand" label="&lt;font color='#B0CA05'&gt;❌ Enlever le Joueur du Mode Marchand&lt;/font&gt;" command="merchant kick %p"/>
+        </item>
+
+        <item type="menu" label="&lt;font color='#036338'&gt;🐾 Morph&lt;/font&gt;">
+            <item type="sendCommand" label="&lt;font color='#5CFA8E'&gt;🦁 Lion&lt;/font&gt;" command="look {1003|||130} %p"/>
+            <item type="sendCommand" label="&lt;font color='#5CFA8E'&gt;🦸 Ankama&lt;/font&gt;" command="look {1150|||160} %p"/>
+            <item type="sendCommand" label="&lt;font color='#5CFA8E'&gt;🤴 Compte Harebourg&lt;/font&gt;" command="look {2069|||170} %p"/>
+            <item type="sendCommand" label="&lt;font color='#5CFA8E'&gt;🧙 Missiz Frizz&lt;/font&gt;" command="look {2079|||140} %p"/>
+            <item type="sendCommand" label="&lt;font color='#5CFA8E'&gt;🐒 Moon&lt;/font&gt;" command="look {375|||90} %p"/>
+            <item type="sendCommand" label="&lt;font color='#5CFA8E'&gt;🧝 Echo&lt;/font&gt;" command="look {3102|||170} %p"/>
+            <item type="sendCommand" label="&lt;font color='#5CFA8E'&gt;👤 Ombre&lt;/font&gt;" command="look {2257|||105} %p"/>
+            <item type="sendCommand" label="&lt;font color='#5CFA8E'&gt;🌚 Dark Moon&lt;/font&gt;" command="look {376|||90} %p"/>
+            <item type="sendCommand" label="&lt;font color='#5CFA8E'&gt;👶 Bebe Moon&lt;/font&gt;" command="look {451|||90} %p"/>
+            <item type="sendCommand" label="&lt;font color='#5CFA8E'&gt;👻 Faucheur&lt;/font&gt;" command="look {419|||110} %p"/> 
+            <item type="sendCommand" label="&lt;font color='#5CFA8E'&gt;🦸 Jiva&lt;/font&gt;" command="look {1053|||190} %p"/> 
+            <item type="sendCommand" label="&lt;font color='#5CFA8E'&gt;🐤 Tofu handicapé&lt;/font&gt;" command="look {501|||110} %p"/>
+            <item type="sendCommand" label="&lt;font color='#5CFA8E'&gt;👼 Ange&lt;/font&gt;" command="look {134|||190} %p"/>
+            <item type="sendCommand" label="&lt;font color='#5CFA8E'&gt;💀 Sram style&lt;/font&gt;" command="look {2117|||110} %p"/>
+            <item type="sendCommand" label="&lt;font color='#5CFA8E'&gt;🧪 Toxine&lt;/font&gt;" command="look {2860|||110} %p"/>
+            <item type="sendCommand" label="&lt;font color='#5CFA8E'&gt;🗿 Sram statue&lt;/font&gt;" command="look {2777|||110} %p"/>
+            <item type="sendCommand" label="&lt;font color='#5CFA8E'&gt;👩‍🦰 Percepteur fille&lt;/font&gt;" command="look {1739|||110} %p"/>
+            <item type="sendCommand" label="&lt;font color='#5CFA8E'&gt;👹 Ogrest&lt;/font&gt;" command="look {1657|||130} %p"/>
+            <item type="sendCommand" label="&lt;font color='#5CFA8E'&gt;🐕 Ouginak chien enragé&lt;/font&gt;" command="look {3906|||130} %p"/>
+            <item type="sendCommand" label="&lt;font color='#5CFA8E'&gt;💩 Boulle de merde&lt;/font&gt;" command="look {3812|||130} %p"/>
+            <item type="sendCommand" label="&lt;font color='#5CFA8E'&gt;🐕 ChienChien de Nox&lt;/font&gt;" command="look {3752|||170} %p"/>
+            <item type="sendCommand" label="&lt;font color='#5CFA8E'&gt;🧙 Joris&lt;/font&gt;" command="look {3192|||170} %p"/>
+            <item type="sendCommand" label="&lt;font color='#00FF00'&gt;🧍 Demorph&lt;/font&gt;" command="look %p -demorph %p"/>
+        </item>
+
+        <item type="menu" label="&lt;font color='#06A4F9'&gt;👁️ Visible/Invisible&lt;/font&gt;">
+            <item type="sendCommand" label="&lt;font color='#049BDB'&gt;👁️ Visible&lt;/font&gt;" command="setinv %p"/>
+            <item type="sendCommand" label="&lt;font color='#049BDB'&gt;👁️ Invisible&lt;/font&gt;" command="setinv %p"/>
+        </item>
+
+        <item type="menu" label="&lt;font color='#0223FC'&gt;🔇 Mute/Unmute la MAP&lt;/font&gt;">
+            <item type="sendCommand" label="&lt;font color='#026AFC'&gt;🔇 Mute&lt;/font&gt;" command="mutemap"/>
+            <item type="sendCommand" label="&lt;font color='#026AFC'&gt;🔊 UnMute&lt;/font&gt;" command="mutemap"/>
+        </item>
+    </item>
+</commands>
