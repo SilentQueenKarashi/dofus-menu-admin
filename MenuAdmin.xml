@@ -193,9 +193,8 @@
 			<item type="sendChat" label="Rejoindre" command=".goname %p"/>
 			<item type="sendChat" label="Faire venir" command=".namego %p"/>
 			<item type="sendChat" label="PvP" command=".teleport 88212759 %p"/>
-			<item type="sendChat" label="Start" command=".teleport 88213271 %p"/>
-			<item type="sendChat" label="Enclos" command=".teleport 146802688 %p" />
-			<item type="sendChat" label="Kolizeum" command=".teleport 81788928 %p" />
+			<item type="sendChat" label="Map Event" command=".teleport 6 %p"/>
+			<item type="sendChat" label="Capture Event XP" command=".teleport 66326528 %p"/>
 		</item>				
 						<item type="static" label="&lt;b&gt;Reload &lt;b&gt;"/>
  					<item type="loadXML" label="&lt;font color='#00ffff'&gt;Reload XML&lt;/font&gt;"/>
